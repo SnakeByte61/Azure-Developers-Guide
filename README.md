@@ -1,39 +1,38 @@
-# GitHub Bash Commands Guide for Developers
+# Azure Developers User Guide for GitHub
 
-A comprehensive reference of essential BASH commands for interacting with GitHub repositories.
+A comprehensive guide for Azure developers integrating Azure services with GitHub and following best practices when working with Azure and GitHub together.
 
-## Table of Contents
+## 📚 Table of Contents
 
-1. [Initial Setup](#initial-setup)
-2. [Repository Operations](#repository-operations)
-3. [Branch Management](#branch-management)
-4. [Committing Changes](#committing-changes)
-5. [Remote Operations](#remote-operations)
-6. [Viewing History](#viewing-history)
-7. [Stashing & Reverting](#stashing--reverting)
-8. [Merging & Rebasing](#merging--rebasing)
-9. [Tags](#tags)
-10. [GitHub CLI (gh) Commands](#github-cli-gh-commands)
-11. [SSH Key Management](#ssh-key-management)
-12. [Advanced Workflows](#advanced-workflows)
+1. [Quick Start](#quick-start)
+2. [Azure DevOps Integration with GitHub](#azure-devops-integration-with-github)
+3. [Best Practices for Azure Developers](#best-practices-for-azure-developers)
+4. [Contributing](#contributing)
+5. [License](#license)
 
----
+## Quick Start
 
-## Initial Setup
+This guide covers:
+- **Azure DevOps Integration**: Connect your GitHub repositories to Azure DevOps for seamless CI/CD pipelines
+- **Best Practices**: Security, deployment, monitoring, and development workflows for Azure developers
 
-### Configure Git User (Required)
+Choose a section below to get started:
 
-```bash
-# Set your name globally
-git config --global user.name "Your Name"
+- 👉 [Azure DevOps Integration Guide](./docs/azure-devops-integration.md)
+- 👉 [Best Practices Guide](./docs/best-practices.md)
 
-# Set your email globally
-git config --global user.email "your.email@example.com"
+## Prerequisites
 
-# Verify configuration
-git config --global --list
+- Azure subscription
+- GitHub account
+- Basic understanding of CI/CD concepts
+- Familiarity with Git and GitHub workflows
 
-# Configure for specific repository only (local)
-cd /path/to/repo
-git config user.name "Your Name"
-git config user.email "your.email@example.com"
+## Contributing
+
+We welcome contributions! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
+
+## License
+
+This guide is licensed under the MIT License - see [LICENSE](./LICENSE) file for details.
+
